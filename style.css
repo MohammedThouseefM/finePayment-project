@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logodiv{
+    margin-bottom: 10px;
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.logodiv img{
+    border-radius: 100px;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0 10px 0;
+}
+
+.parentlog {
+    width: 100%;
+    height: 100vh;
+    padding-top: 70px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: url("/bg\ img.jpg");
+}
+
+.login-container {
+    max-width: 400px;
+    width: 90%;
+    margin: 0 auto 50px;
+    padding: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.555);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.student-container{
+    max-width: 800px;
+    width: 90%;
+    margin: 0 auto 50px;
+    margin-top: 90px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.hidden {
+    display: none;
+}
+
+.fine {
+    color: #dc3545;
+    font-weight: bold;
+}
+
+.no-fine {
+    color: #28a745;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #003366;
+    border-color: #003366;
+}
+
+.btn-primary:hover {
+    background-color: #002244;
+    border-color: #002244;
+}
+
+.captcha {
+    height: 40px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 24px;
+    letter-spacing: 3px;
+    color: #003366;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.error {
+    color: #dc3545;
+    font-size: 0.875em;
+    margin-top: 0.25rem;
+}
