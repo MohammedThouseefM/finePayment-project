@@ -43,7 +43,7 @@ body {
     margin: 0 auto;
     padding: 30px;
     color: white;
-    background-color: rgba(0, 0, 0, 0.555);
+    background-color: rgba(29, 29, 29, 0.555);
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
@@ -74,8 +74,8 @@ body {
 }
 
 .btn-primary {
-    background-color: #003366;
-    border-color: #003366;
+    background-color: #004d9b;
+    border-color: #00478d;
 }
 
 .btn-primary:hover {
