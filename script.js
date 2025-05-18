@@ -67,6 +67,7 @@
         const captchaError = document.getElementById('captchaError');
         const parentlog = document.querySelector('.parentlog');
         const headershow = document.querySelector('.header');
+        const footer = document.querySelector('.footer');
 
         let currentStudent = null;
         let currentCaptcha = '';
@@ -101,6 +102,7 @@
             captchaError.classList.add('hidden');
             parentlog.classList.add('hidden');
             headershow.classList.remove('hidden');
+            footer.classList.remove('hidden');
             
             // Validate CAPTCHA first
             if (captcha !== currentCaptcha) {

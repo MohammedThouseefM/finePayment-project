@@ -1,20 +1,21 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 body {
     background-color: #f8f9fa;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.logodiv{
+.logodiv {
     margin-bottom: 10px;
     border-radius: 100px;
     overflow: hidden;
 }
 
-.logodiv img{
+.logodiv img {
     border-radius: 100px;
     overflow: hidden;
 }
@@ -46,7 +47,7 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
-.student-container{
+.student-container {
     max-width: 800px;
     width: 90%;
     margin: 0 auto 50px;
@@ -82,7 +83,6 @@ body {
 }
 
 .captcha {
-    height: 40px;
     font-family: 'Comic Sans MS', cursive, sans-serif;
     font-size: 24px;
     letter-spacing: 3px;
@@ -97,4 +97,21 @@ body {
     color: #dc3545;
     font-size: 0.875em;
     margin-top: 0.25rem;
+}
+
+.footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer a {
+    color: rgb(94, 161, 248);
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
 }
