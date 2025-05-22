@@ -1,6 +1,12 @@
 // Student data with actual attendance percentages
         const students = [
-            { regNo: "36623U09001", name: "ABU BAKER MIRA PATEI", dob: "26-03-2005", attendance: 85, paid: false },
+            { 
+                regNo: "36623U09001", 
+                name: "ABU BAKER MIRA PATEI", 
+                dob: "26-03-2005", 
+                attendance: 85, 
+                paid: false
+            },
             { regNo: "36623U09002", name: "ADITHYA S", dob: "07-09-2005", attendance: 78, paid: false },
             { regNo: "36623U09003", name: "ARRATH ZURAIN N", dob: "01-02-2004", attendance: 72, paid: false },
             { regNo: "36623U09004", name: "ASMATH BASHA T N", dob: "27-06-2006", attendance: 80, paid: false },
@@ -27,23 +33,24 @@
             { regNo: "36623U09025", name: "MOHAMMED SIDDEEGUE S", dob: "30-04-2005", attendance: 80, paid: false },
             { regNo: "36623U09026", name: "MOHAMMED SUFIYAN K", dob: "29-08-2005", attendance: 76, paid: false },
             { regNo: "36623U09027", name: "MOHAMMED THALIA O", dob: "05-09-2004", attendance: 82, paid: false },
-            { regNo: "36623U09028", name: "MOHAMMED THOUSFEE M", dob: "19-10-2005", attendance: 71, paid: false },
+            { regNo: "36623U09028", name: "MOHAMMED THOUSFEE M", dob: "01-01-2000", attendance: 71, paid: false },
             { regNo: "36623U09029", name: "MOHAMMED WASEEM J", dob: "06-02-2005", attendance: 69, paid: false },
             { regNo: "36623U09030", name: "MUHAMMED RAIYAN G", dob: "19-06-2006", attendance: 84, paid: false },
-            { regNo: "36623109032", name: "MUIMME D RAIYAN K S", dob: "19-05-2006", attendance: 73, paid: false },
-            { regNo: "36623109033", name: "NAATHIQUE AHMED S", dob: "02-07-2006", attendance: 77, paid: false },
-            { regNo: "36623109034", name: "NAVALI MOHAMMED ZAHID", dob: "18-11-2005", attendance: 70, paid: false },
-            { regNo: "36623109035", name: "RAIAN Z", dob: "07-03-2006", attendance: 75, paid: false },
-            { regNo: "36623109036", name: "SATHYA M", dob: "28-11-2005", attendance: 81, paid: false },
-            { regNo: "36623109037", name: "SAYEED AHMED C", dob: "05-02-2003", attendance: 68, paid: false },
-            { regNo: "36623109038", name: "SHAHID S", dob: "14-05-2006", attendance: 79, paid: false },
-            { regNo: "36623108040", name: "SHAIKH SALMAN", dob: "29-05-2005", attendance: 72, paid: false },
-            { regNo: "36623109040", name: "SHIOAIB F", dob: "17-06-2005", attendance: 74, paid: false },
-            { regNo: "36623109041", name: "THOSIF J", dob: "08-12-2005", attendance: 83, paid: false },
-            { regNo: "36623109042", name: "VIJAY K", dob: "01-07-2005", attendance: 76, paid: false },
-            { regNo: "36623109043", name: "VISHWA V", dob: "06-06-2005", attendance: 80, paid: false },
-            { regNo: "36623109044", name: "ZAKIR SHAREEF U", dob: "15-03-2005", attendance: 71, paid: false },
-            { regNo: "36623109045", name: "ZUBAIR AHMED K", dob: "19-04-2006", attendance: 69, paid: false }
+            { regNo: "36623U09031", name: "MUIMME D RAIYAN K S", dob: "19-05-2006", attendance: 73, paid: false },
+            { regNo: "36623U09032", name: "MUJIMIL S", dob: "02-07-2006", attendance: 93, paid: false },
+            { regNo: "36623U09033", name: "NAATHIQUE AHMED S", dob: "02-07-2006", attendance: 77, paid: false },
+            { regNo: "36623U09034", name: "NAVALI MOHAMMED ZAHID", dob: "18-11-2005", attendance: 70, paid: false },
+            { regNo: "36623U09035", name: "RAIAN Z", dob: "07-03-2006", attendance: 75, paid: false },
+            { regNo: "36623U09036", name: "SATHYA M", dob: "28-11-2005", attendance: 81, paid: false },
+            { regNo: "36623U09037", name: "SAYEED AHMED C", dob: "05-02-2003", attendance: 68, paid: false },
+            { regNo: "36623U09038", name: "SHAHID S", dob: "14-05-2006", attendance: 79, paid: false },
+            { regNo: "36623U08040", name: "SHAIKH SALMAN", dob: "29-05-2005", attendance: 72, paid: false },
+            { regNo: "36623U09040", name: "SHIOAIB F", dob: "17-06-2005", attendance: 74, paid: false },
+            { regNo: "36623U09041", name: "THOSIF J", dob: "08-12-2005", attendance: 83, paid: false },
+            { regNo: "36623U09042", name: "VIJAY K", dob: "01-07-2005", attendance: 76, paid: false },
+            { regNo: "36623U09043", name: "VISHWA V", dob: "06-06-2005", attendance: 80, paid: false },
+            { regNo: "36623U09044", name: "ZAKIR SHAREEF U", dob: "15-03-2005", attendance: 71, paid: false },
+            { regNo: "36623U09045", name: "ZUBAIR AHMED K", dob: "19-04-2006", attendance: 69, paid: false }
         ];
 
         // DOM elements
