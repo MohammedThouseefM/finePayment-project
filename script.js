@@ -33,7 +33,7 @@
             { regNo: "36623U09025", name: "MOHAMMED SIDDEEGUE S", dob: "30-04-2005", attendance: 80, paid: false },
             { regNo: "36623U09026", name: "MOHAMMED SUFIYAN K", dob: "29-08-2005", attendance: 76, paid: false },
             { regNo: "36623U09027", name: "MOHAMMED THALIA O", dob: "05-09-2004", attendance: 82, paid: false },
-            { regNo: "36623U09028", name: "MOHAMMED THOUSFEE M", dob: "01-01-2000", attendance: 71, paid: false },
+            { regNo: "36623U09000", name: "MOHAMMED THOUSFEE M", dob: "01-01-2000", attendance: 71, paid: false },
             { regNo: "36623U09029", name: "MOHAMMED WASEEM J", dob: "06-02-2005", attendance: 69, paid: false },
             { regNo: "36623U09030", name: "MUHAMMED RAIYAN G", dob: "19-06-2006", attendance: 84, paid: false },
             { regNo: "36623U09031", name: "MUIMME D RAIYAN K S", dob: "19-05-2006", attendance: 73, paid: false },
