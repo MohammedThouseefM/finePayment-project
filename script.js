@@ -38,7 +38,7 @@
             { regNo: "36623U09030", name: "MUHAMMED RAIYAN G", dob: "19-06-2006", attendance: 84, paid: false },
             { regNo: "36623U09031", name: "MUIMME D RAIYAN K S", dob: "19-05-2006", attendance: 73, paid: false },
             { regNo: "36623U09032", name: "MUJIMIL S", dob: "02-07-2006", attendance: 93, paid: false },
-            { regNo: "36623U09033", name: "NAATHIQUE AHMED S", dob: "02-07-2006", attendance: 77, paid: false },
+            { regNo: "36623U09033", name: "NAATHIQUE AHMED S", dob: "18-11-2005", attendance: 77, paid: false },
             { regNo: "36623U09034", name: "NAVALI MOHAMMED ZAHID", dob: "18-11-2005", attendance: 70, paid: false },
             { regNo: "36623U09035", name: "RAIAN Z", dob: "07-03-2006", attendance: 75, paid: false },
             { regNo: "36623U09036", name: "SATHYA M", dob: "28-11-2005", attendance: 81, paid: false },
